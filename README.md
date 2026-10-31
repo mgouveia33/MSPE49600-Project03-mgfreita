@@ -29,3 +29,5 @@ Run mgfreita_pr03_notebook.ipynb
 For the IMS setup data, LOOCV selected an RBF width of approximately sigma = 0.652057 and regularization lambda = 1e-8 (the notebook display this small positive value as 0.0 when rounded). The quadratic model had the lowest LOOCV RMSE (about 0.0265 s) and test RMSE (about 0.0259 s) among the compared IMS models, so it is the recommended predictor for this split.
 
 For the simulated lap-time data, the tanh MLP had the lowest test RMSE (about 0.2073 s), compared with about 0.5598 s for the ReLU MLP and 0.5906 s for the quadratic reference.
+
+**AI assistance**: I used AI to assist in troubleshooting and developing plotting code for the response surfaces and model-validation figures. I reviewed and adapted the suggestions, and I am responsible for the final analysis, results, and interpretation.
